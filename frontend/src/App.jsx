@@ -272,7 +272,7 @@ const save = async () => {
           {current ? (
             <>
               <div className="hint">
-                {!flipped ? "Click me to check the answer! 💡" : "Woohoo! Moving to next card..."}
+                {!flipped ? "Click to check the answer! 💡" : "Woohoo! Moving to next card..."}
               </div>
 
               <div className="card-wrapper">
